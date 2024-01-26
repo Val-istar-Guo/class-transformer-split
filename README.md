@@ -6,15 +6,20 @@
 [![dependencies](https://img.shields.io/david/Val-istar-Guo/class-transformer-split.svg?style=flat-square)](https://www.npmjs.com/package/@miaooo/class-transformer-split)
 [![coveralls](https://img.shields.io/coveralls/github/Val-istar-Guo/class-transformer-split.svg?style=flat-square)](https://coveralls.io/github/Val-istar-Guo/class-transformer-split)
 
-
+> **DEPRECATED**
+>
+> **This package has been deprecated. Please use** [**@buka/class-transformer-extra**](https://www.npmjs.com/package/@buka/class-transformer-extra) **instead**.
 
 <!-- description -->
+
 A class transformer helper that splits the string into multiple string.
+
 <!-- description -->
 
 ## Usage
 
 <!-- usage -->
+
 ```typescript
 // my-query.dto.ts
 export MyQueryDTO {
@@ -28,19 +33,17 @@ export MyQueryDTO {
 // my.controller.ts
 @Controller()
 export class MyController {
-  @Get('/')
-  async get(
-    @Query() filter: MyQueryDTO
-  ) {
+  @Get("/")
+  async get(@Query() filter: MyQueryDTO) {
     // query.types will be splited by ',' automated
     return query;
   }
 }
 ```
+
 <!-- usage -->
 
 <!-- addition --><!-- addition -->
-
 
 ## Contributing & Development
 
