@@ -1,6 +1,6 @@
 {
   "name": "@miaooo/class-transformer-split",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A class transformer helper that splits the string into multiple string.",
   "main": "lib/index.js",
   "scripts": {
